@@ -1,0 +1,53 @@
+{
+    "name": "aw-marketplace",
+    "metadata": {
+        "description": "Agent Workspace Marketplace - Curated high-performance agents, tools, and plugins for GitHub Copilot CLI and VS Code",
+        "version": "1.0.0",
+        "pluginRoot": "./plugins"
+    },
+    "owner": {
+        "name": "Agent Workspace Team",
+        "email": "marketplace@agentworkspace.dev"
+    },
+    "plugins": [
+        {
+            "name": "workspace-optimizer",
+            "description": "Intelligent developer environment and terminal workspace configurator. Automatically detects your stack, installs required linters, formatters, and sets up project-specific shell shortcuts.",
+            "version": "1.1.0",
+            "author": {
+                "name": "Agent Workspace Team",
+                "url": "https://github.com/agentworkspace"
+            },
+            "repository": "https://github.com/agentworkspace/workspace-optimizer",
+            "license": "MIT",
+            "keywords": [
+                "workspace",
+                "setup",
+                "configurator",
+                "dx",
+                "developer-experience",
+                "onboarding"
+            ],
+            "source": "./plugins/workspace-optimizer"
+        },
+        {
+            "name": "pr-assistant",
+            "description": "Your virtual partner for pull requests. Analyzes repository branch differences, builds interactive and descriptive PR draft bodies, links relevant issues, and suggests reviewer assignments based on git blame history.",
+            "version": "1.0.4",
+            "author": {
+                "name": "Agent Workspace Team",
+                "url": "https://github.com/agentworkspace"
+            },
+            "repository": "https://github.com/agentworkspace/pr-assistant",
+            "license": "MIT",
+            "keywords": [
+                "git",
+                "pull-request",
+                "code-review",
+                "automation",
+                "changelog"
+            ],
+            "source": "./plugins/pr-assistant"
+        }
+    ]
+}
