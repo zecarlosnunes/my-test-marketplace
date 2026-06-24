@@ -1,0 +1,26 @@
+{
+  "name": "workspace-optimizer",
+  "description": "Intelligent developer environment and terminal workspace configurator. Automatically detects your stack, installs required linters, formatters, and sets up project-specific shell shortcuts.",
+  "version": "1.1.0",
+  "author": {
+    "name": "Agent Workspace Team",
+    "email": "workspace-optimizer@agentworkspace.dev"
+  },
+  "repository": "https://github.com/agentworkspace/workspace-optimizer",
+  "license": "MIT",
+  "keywords": [
+    "workspace",
+    "setup",
+    "configurator",
+    "dx",
+    "developer-experience",
+    "onboarding"
+  ],
+  "agents": [
+    "./agents"
+  ],
+  "skills": [
+    "./skills/detect-stack",
+    "./skills/setup-linters"
+  ]
+}

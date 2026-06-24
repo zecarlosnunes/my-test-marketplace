@@ -1,0 +1,25 @@
+{
+  "name": "pr-assistant",
+  "description": "Your virtual partner for pull requests. Analyzes repository branch differences, builds interactive and descriptive PR draft bodies, links relevant issues, and suggests reviewer assignments based on git blame history.",
+  "version": "1.0.4",
+  "author": {
+    "name": "Agent Workspace Team",
+    "email": "pr-assistant@agentworkspace.dev"
+  },
+  "repository": "https://github.com/agentworkspace/pr-assistant",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "pull-request",
+    "code-review",
+    "automation",
+    "changelog"
+  ],
+  "agents": [
+    "./agents"
+  ],
+  "skills": [
+    "./skills/analyze-diff",
+    "./skills/generate-description"
+  ]
+}
