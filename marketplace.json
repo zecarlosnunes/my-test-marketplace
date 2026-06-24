@@ -28,7 +28,7 @@
                 "developer-experience",
                 "onboarding"
             ],
-            "source": "./plugins/workspace-optimizer"
+            "source": "./workspace-optimizer"
         },
         {
             "name": "pr-assistant",
@@ -47,7 +47,7 @@
                 "automation",
                 "changelog"
             ],
-            "source": "./plugins/pr-assistant"
+            "source": "./pr-assistant"
         }
     ]
 }
